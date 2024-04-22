@@ -1,9 +1,10 @@
 .traffic-light {
     background: black;
-    padding: 10px;
-    display: inline-block;
-    margin: auto;
-
+    position: absolute;
+    margin-top: 50px;
+    left: 700px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.70);
+       
 }
 
 .light {
@@ -16,7 +17,8 @@
 
 .red {
     background: red;
-}
+    margin-top: 10px;
+    }
 
 .yellow {
     background: yellow;
@@ -26,4 +28,8 @@
 }
 .glow {
     box-shadow: 0px 0px 9px 4px #747DE8;
+}
+.boton {
+    padding: 5px 50px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.70);
 }
