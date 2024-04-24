@@ -37,7 +37,7 @@ export default function Home() {
         className={"light green" + (selectedColor === "green" ? " glow" : "")
         }></div>
 
-      <button className='boton' onClick={changeColor}></button>
+      <button className='boton' onClick={changeColor}>Cambia color</button>
 
     </div>
 
